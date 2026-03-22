@@ -1,0 +1,81 @@
+baseURL = "https://lfelipebmacedo.github.io/"
+title = "Felipe Macedo"
+theme = "hugo-coder"
+defaultContentLanguage = "pt-br"
+enableRobotsTXT = true
+
+
+[pagination]
+pagerSize = 20
+
+[caches]
+  [caches.images]
+  dir = ":cacheDir/images"
+
+[languages]
+  [languages.pt-br]
+  label = "Portugues"
+  locale = "pt-BR"
+  title = "Felipe Macedo"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Felipe Macedo"
+#  info = "Desenvolvedor e criador de software"
+#  description = "Site pessoal com posts, projetos e anotações do Felipe Macedo."
+  keywords = "blog,developer,personal,hugo,software"
+  avatarurl = "/images/avatar.jpg"
+  #gravatar = "lfelipebmacedo@gmail.com"
+
+  faviconSVG = "/images/favicon.svg"
+  favicon_32 = "/images/favicon-32x32.png"
+  favicon_16 = "/images/favicon-16x16.png"
+  touchIcon = "/images/apple-touch-icon.png"
+  mask_icon = "/images/favicon.svg"
+  manifest = "/site.webmanifest"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Instagram"
+  icon = "fa-brands fa-instagram fa-2x"
+  weight = 1
+  url = "https://www.instagram.com/f.el.ip.e/"
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/lfelipebmacedo"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 1
+  url = "https://www.linkedin.com/in/lfelipemacedo/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "Sobre"
+  weight = 2
+  url = "about/"
