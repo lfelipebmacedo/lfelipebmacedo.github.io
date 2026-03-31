@@ -3,8 +3,8 @@ title = "Sobre"
 date = 2026-03-29T20:45:00-03:00
 +++
 
-Sou Felipe Macedo, desenvolvedor de software e entusiasta de tecnologia.
+Me chamo Felipe Macedo e trabalho com Engenharia de Software.
 
-Este site vai reunir posts sobre aprendizado, projetos pessoais, carreira e experimentos que eu estiver construindo ao longo do tempo.
+Criei essa página com apenas dois objetivos que se complementam: Escrever sobre meus estudos e estudar através da escrita.
 
-Se quiser acompanhar meu trabalho, os links para GitHub, LinkedIn e Instagram estao logo na pagina inicial.
+Se caiu aqui, perdão pela bagunça. =D
